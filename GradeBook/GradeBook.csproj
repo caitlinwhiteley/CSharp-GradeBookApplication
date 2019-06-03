@@ -14,4 +14,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="GradeBooks\RankedGradebook.cs" />
+  </ItemGroup>
 </Project>
